@@ -1,5 +1,5 @@
 {
-  "name": "npm-test",
+  "name": "@fquffio/npm-test",
   "version": "1.1.0",
   "description": "Test",
   "main": "index.js",
