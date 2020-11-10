@@ -15,8 +15,10 @@ jobs:
       with:
         node-version: 14
     - name: Publish if version has been updated
-      uses: JS-DevTools/npm-publish@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        registry: https://npm.pkg.github.com/
-        check-version: no
+      run: |
+        echo '//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}' > ~/.npmrc
+        npm publish
+      # uses: JS-DevTools/npm-publish@v1
+      # with:
+      #   token: ${{ secrets.GITHUB_TOKEN }}
+      #   registry: https://npm.pkg.github.com/
