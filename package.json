@@ -1,5 +1,5 @@
 {
-  "name": "@fquffio/npm-test",
+  "name": "@fquffio/npm-test/foo-bar",
   "version": "1.2.0",
   "description": "Test",
   "main": "index.js",
