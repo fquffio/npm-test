@@ -1,6 +1,6 @@
 {
   "name": "@fquffio/npm-test",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Test",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": "git://github.com/fquffio/npm-test.git",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
